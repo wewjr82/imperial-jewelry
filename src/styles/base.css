@@ -1,0 +1,30 @@
+/* Box Model Hack */
+* {
+  box-sizing: inherit; /*as you nest boxes inside each other they'll inherit height n width from parent*/
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+font-size: 62.5%;
+}
+
+/******************************************/
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size: clamp(1.4rem, 1.6vw, 1.8rem);
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
