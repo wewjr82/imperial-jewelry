@@ -1,11 +1,11 @@
-import "./Header.css"
-import logo from "/src/assets/default-monochrome.svg"
-
+import "./Header.css";
+import logo from "/src/assets/default-monochrome.svg";
 
 function Header() {
   return (
     <header>
       <img src={logo} alt="logo" />
+
       <div className="register-block">
         <div className="cart">cart</div>
         <p>SHOPPING CART</p>
@@ -20,4 +20,4 @@ function Header() {
   );
 }
 
-export default Header
+export default Header;
